@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="CLF-C02 Exam Mock — AWS Certified Cloud Practitioner practice exams">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1721"/>
+      <stop offset="55%" stop-color="#141d2b"/>
+      <stop offset="100%" stop-color="#1b2433"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f7df6"/>
+      <stop offset="100%" stop-color="#18b3a8"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF9900" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+
+  <!-- faint grid -->
+  <g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1">
+    <path d="M0 70h1200M0 140h1200M0 210h1200"/>
+    <path d="M150 0v280M300 0v280M450 0v280M600 0v280M750 0v280M900 0v280M1050 0v280"/>
+  </g>
+
+  <!-- score-trend motif, echoing the app's progress chart -->
+  <g transform="translate(700 74)">
+    <path d="M0 132 L64 116 L128 121 L192 92 L256 69 L320 50 L384 39"
+          fill="none" stroke="#2f7df6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 132 L64 116 L128 121 L192 92 L256 69 L320 50 L384 39 L384 158 L0 158 Z"
+          fill="#2f7df6" fill-opacity="0.12"/>
+    <path d="M0 56h384" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="5 5" stroke-opacity="0.7"/>
+    <!-- label sits at the left end, clear of the rising line and the frame edge -->
+    <text x="0" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+          font-size="13" fill="#FF9900" fill-opacity="0.9">target 80%</text>
+    <g fill="#2f7df6">
+      <circle cx="0" cy="132" r="4.5"/><circle cx="64" cy="116" r="4.5"/><circle cx="128" cy="121" r="4.5"/>
+      <circle cx="192" cy="92" r="4.5"/><circle cx="256" cy="69" r="4.5"/><circle cx="320" cy="50" r="4.5"/>
+      <circle cx="384" cy="39" r="5.5" fill="#ffffff" stroke="#2f7df6" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- logo mark -->
+  <g transform="translate(64 70)">
+    <rect width="58" height="58" rx="15" fill="url(#mark)"/>
+    <text x="29" y="37" text-anchor="middle" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif"
+          font-size="17" font-weight="700" fill="#ffffff">CLF</text>
+  </g>
+
+  <text x="142" y="106" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="38" font-weight="700" fill="#f5f7fa">
+    CLF-C02 Exam Mock
+  </text>
+  <text x="142" y="142" font-family="Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="18" fill="#9aa7b8">
+    AWS Certified Cloud Practitioner — a full practice-exam simulator
+  </text>
+
+  <path d="M142 162h300" stroke="url(#fade)" stroke-width="2" stroke-linecap="round"/>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#cbd5e1">
+    <g transform="translate(142 190)">
+      <rect width="150" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="20">500+ questions</text>
+    </g>
+    <g transform="translate(304 190)">
+      <rect width="132" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="20">90-min timer</text>
+    </g>
+    <g transform="translate(448 190)">
+      <rect width="118" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="14" y="20">no backend</text>
+    </g>
+  </g>
+</svg>
