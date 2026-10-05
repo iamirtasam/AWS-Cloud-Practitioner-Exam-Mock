@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+.vercel/
+.claude/
+.DS_Store
+
+# Test-run artefacts. docs/*.png are committed on purpose (README screenshots),
+# so this stays narrow rather than ignoring *.png outright.
+screenshot-*.png
+_pv.*
+_mm.*
