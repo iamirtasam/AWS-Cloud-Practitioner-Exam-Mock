@@ -284,8 +284,8 @@ window.QBANK.push(
     rationales: [
       "Patching the platform is exactly the work a managed service removes from the customer.",
       "Physical data centers always belong to AWS; ownership is never transferred.",
-      "",
-      "This is the correct division: AWS runs the platform, the customer owns data, configuration, and code."
+      "AWS never writes or maintains the customer's application code - that responsibility stays with the customer.",
+      ""
     ],
     services: [],
     tags: ["managed services", "shared operations"]

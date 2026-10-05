@@ -309,8 +309,8 @@ window.QBANK.push(
     explanation: "This is the standard layered VPC: only the internet-facing tier lives in public subnets routed to an internet gateway, while inner tiers sit in private subnets reachable only from inside the VPC. Each layer of separation shrinks the attack surface - and inverting the layout exposes the database, the worst possible outcome.",
     rationales: [
       "A single public subnet puts every tier, including the database, on the internet.",
-      "With no internet path at all, the web tier could not serve users either.",
       "",
+      "With no internet path at all, the web tier could not serve users either.",
       "Exposing the database while hiding the web servers inverts every rule of tiered security."
     ],
     services: ["Amazon VPC"],
