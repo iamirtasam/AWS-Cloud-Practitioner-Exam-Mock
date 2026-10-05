@@ -159,8 +159,9 @@ if (multi) {
 }
 
 console.log("\n=== Weak areas & review pool ===");
-// Answer some questions from the last domain's first task wrong to create a weak area
-const drillTask = BP.domains[BP.domains.length - 1].tasks[0].id;
+// Answer some questions wrong to create a weak area. Drill a task from the
+// non-empty pools so the check stays meaningful while content is still landing.
+const drillTask = nonEmptyTasks[nonEmptyTasks.length - 1];
 Engine.Bank.taskPool(drillTask).slice(0, 6).forEach((q) => Store.recordAnswer(q.id, false));
 const weak = Engine.weakTasks(3);
 check("weakTasks returns ranked results", weak.length > 0);
