@@ -1,0 +1,24 @@
+{
+  "name": "aws-cloud-practitioner-exam-mock",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Practice exams and study material for the AWS Certified Cloud Practitioner (CLF-C02) exam. Static site, no backend.",
+  "homepage": "https://github.com/iamirtasam/AWS-Cloud-Practitioner-Exam-Mock",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamirtasam/AWS-Cloud-Practitioner-Exam-Mock.git"
+  },
+  "license": "MIT",
+  "keywords": ["aws", "clf-c02", "cloud-practitioner", "certification", "practice-exam", "study"],
+  "scripts": {
+    "validate": "node validate.js",
+    "test:engine": "node test-engine.js",
+    "test:ui": "node test-ui.js",
+    "test": "node validate.js && node test-engine.js && node test-ui.js",
+    "screenshots": "node tools/screenshots.js",
+    "serve": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
