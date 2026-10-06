@@ -533,5 +533,29 @@ window.QBANK.push(
     ],
     services: ["AWS CLI", "Amazon S3"],
     tags: ["cli", "bulk operations"]
+  },
+  {
+    id: "3.1-023",
+    domain: 3,
+    task: "3.1",
+    type: "single",
+    difficulty: "medium",
+    stem: "A platform team must deploy the same three-tier architecture into multiple AWS accounts with identical results, and keep the definition version-controlled alongside application code. Which approach fits?",
+    options: [
+      "Deploying the resources manually through the console in each account, following a written runbook",
+      "Retyping the same AWS CLI commands in each account after each change",
+      "Defining the architecture as an AWS CloudFormation template and deploying the same template into each account",
+      "Emailing screenshots of a working environment to each account's administrators"
+    ],
+    answer: [2],
+    explanation: "Infrastructure as code with CloudFormation: the template is the single source of truth, deployments are repeatable and identical across accounts and Regions, changes are reviewed and versioned in git, and the service handles dependency ordering and rollback automatically.",
+    rationales: [
+      "Manual console deployment does not guarantee identical results, does not scale, and leaves nothing versioned.",
+      "Retyped commands invite human error and are not managed, versioned, or repeatable by design.",
+      "",
+      "Screenshots are not a deployment mechanism at all."
+    ],
+    services: ["AWS CloudFormation"],
+    tags: ["iac", "cloudformation", "deployment methods"]
   }
 );
