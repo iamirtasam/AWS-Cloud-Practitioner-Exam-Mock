@@ -329,8 +329,8 @@ window.QBANK.push(
     explanation: "Budgets is proactive (thresholds, alerts), Cost Explorer is analytical (history, grouping, forecasts). Teams use both: Explorer to understand and Budgets to guard. There is no either/or relationship.",
     rationales: [
       "Exactly reversed: Budgets sets alerts, Explorer reports history.",
-      "",
       "No exclusivity exists - both tools are commonly enabled together.",
+      "",
       "Tags improve both tools' reporting; neither removes the need for tagging discipline."
     ],
     services: ["AWS Budgets", "AWS Cost Explorer"],
