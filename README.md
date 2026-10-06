@@ -10,7 +10,7 @@ running entirely in your browser with no account, no backend, and no tracking.
 
 <br>
 
-![Status](https://img.shields.io/badge/status-in%20development-F59E0B?style=flat-square)
+![Status](https://img.shields.io/badge/status-v1%20complete-2EA043?style=flat-square)
 ![Backend](https://img.shields.io/badge/backend-none-18b3a8?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-6e7681?style=flat-square)
 
@@ -18,10 +18,10 @@ running entirely in your browser with no account, no backend, and no tracking.
 
 ---
 
-> **This project is under active development.** The app, engine, and study-material
-> plumbing are complete and the content is landing domain by domain. Track progress in
-> the table below — every row is a commit series, so the history shows exactly how the
-> bank was built.
+> **The build is complete.** All 528 questions across the four domains, 19 study-note
+> sections, 244 flashcards, a 179-term glossary, 30 Easily Confused tables, and the
+> exam-day playbook are in, and the full test suite is green. Track the build history
+> in the table below — every row is a commit series.
 
 ---
 
@@ -60,7 +60,7 @@ item types — no ordering or matching — so the bank is built entirely from th
 | Domain 3 · Cloud Technology and Services | ~180 Qs | 🟩 Questions (180), notes, cards done |
 | Domain 4 · Billing, Pricing, and Support | ~63 Qs | 🟩 Questions (63), notes, cards done |
 | Glossary, Easily Confused, Exam Day | ~179 / 30 / 1 | 🟩 Done |
-| Full test suite green (`npm test`) | 113+ checks | ⬜ Pending |
+| Full test suite green (`npm test`) | 110 browser/engine checks + data gate | ✅ Done |
 
 ## Run it
 
