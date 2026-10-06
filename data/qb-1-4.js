@@ -665,9 +665,9 @@ window.QBANK.push(
     explanation: "Consumption pricing makes cost a live signal: granular visibility (tags, accounts, metrics) turns the bill into a tuning dashboard, where right-sizing and cleanup translate directly into savings. Visibility is the mechanism; savings are the result.",
     rationales: [
       "Prices are published openly.",
+      "",
       "Invoices and detailed cost reports are readily available.",
-      "Visibility optimizes the bill; it does not zero it.",
-      ""
+      "Visibility optimizes the bill; it does not zero it."
     ],
     services: [],
     tags: ["cost visibility"]
@@ -690,8 +690,8 @@ window.QBANK.push(
     rationales: [
       "No refresh purchases remain for customers to make.",
       "Customers never manage AWS hardware.",
-      "There is no separate refresh line item.",
-      ""
+      "",
+      "There is no separate refresh line item."
     ],
     services: [],
     tags: ["hardware lifecycle", "economics"]
