@@ -55,11 +55,11 @@ item types — no ordering or matching — so the bank is built entirely from th
 | Content | Target | Status |
 |---|---|---|
 | App shell, engine, views, tests (ported from AIF-C01) | — | ✅ Done |
-| Domain 1 · Cloud Concepts (questions, notes, cards) | ~127 Qs | 🟨 Questions done (127); notes & cards pending |
-| Domain 2 · Security and Compliance | ~158 Qs | 🟨 Questions done (158); notes & cards pending |
-| Domain 3 · Cloud Technology and Services | ~180 Qs | 🟩 Questions (178), notes, cards done |
-| Domain 4 · Billing, Pricing, and Support | ~63 Qs | ⬜ Pending |
-| Glossary, Easily Confused, Exam Day | ~170 / ~30 / 1 | ⬜ Pending |
+| Domain 1 · Cloud Concepts (questions, notes, cards) | ~127 Qs | 🟩 Questions (127), notes, cards done |
+| Domain 2 · Security and Compliance | ~158 Qs | 🟩 Questions (158), notes, cards done |
+| Domain 3 · Cloud Technology and Services | ~180 Qs | 🟩 Questions (180), notes, cards done |
+| Domain 4 · Billing, Pricing, and Support | ~63 Qs | 🟩 Questions (63), notes, cards done |
+| Glossary, Easily Confused, Exam Day | ~179 / 30 / 1 | 🟩 Done |
 | Full test suite green (`npm test`) | 113+ checks | ⬜ Pending |
 
 ## Run it
