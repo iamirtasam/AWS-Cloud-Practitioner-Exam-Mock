@@ -397,12 +397,12 @@ window.QBANK.push(
     stem: "A company runs a customer-facing production workload and wants a support plan with 24/7 access to cloud support engineers and fast response times when production is impaired. Which support tier fits?",
     options: [
       "Basic Support, which is free with all accounts",
-      "Business Support (or higher)",
+      "AWS Business Support+ (or higher)",
       "AWS re:Post only",
       "No plan supports production workloads"
     ],
     answer: [1],
-    explanation: "Business-level support adds 24/7 email, chat, and phone access to cloud support engineers with fast response times for production-impacting issues; higher tiers add more. Basic Support covers account questions and documentation only - the standard trap is assuming the free tier covers production incidents.",
+    explanation: "Business Support+ adds 24/7 email, chat, and phone access to cloud support engineers with fast response times for production-impacting issues; higher tiers add more. Basic Support covers account questions and documentation only - the standard trap is assuming the free tier covers production incidents.",
     rationales: [
       "Basic Support provides account and billing help plus community resources, not 24/7 engineering response.",
       "",
@@ -423,7 +423,7 @@ window.QBANK.push(
       "Basic Support",
       "Community forums",
       "AWS Documentation",
-      "Enterprise Support"
+      "AWS Enterprise Support"
     ],
     answer: [3],
     explanation: "Enterprise Support is the top tier: a dedicated technical account manager, proactive architectural reviews and guidance, concierge billing, and the fastest response commitments. The other options are free resources without any of those features.",
@@ -533,5 +533,29 @@ window.QBANK.push(
     ],
     services: ["AWS CodeBuild", "AWS CodePipeline"],
     tags: ["developer tools"]
+  },
+  {
+    id: "3.8-023",
+    domain: 3,
+    task: "3.8",
+    type: "single",
+    difficulty: "medium",
+    stem: "A company wants fully managed business email and calendaring for its employees, without operating its own email servers. Which service fits?",
+    options: [
+      "Amazon Connect",
+      "Amazon SES",
+      "Amazon WorkSpaces",
+      "Amazon WorkMail"
+    ],
+    answer: [3],
+    explanation: "Amazon WorkMail is the managed business email and calendar service - mailboxes, calendaring, and scheduling without running Exchange-style servers. The other services solve different problems: contact centers, application email, and cloud desktops.",
+    rationales: [
+      "Connect provides cloud contact centers with telephony and agent queues.",
+      "SES sends and receives application-level email (receipts, notifications) at scale - it does not provide employee mailboxes and calendars.",
+      "WorkSpaces provides managed cloud desktops.",
+      ""
+    ],
+    services: ["Amazon WorkMail"],
+    tags: ["business applications", "workmail"]
   }
 );
