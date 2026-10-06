@@ -9,7 +9,7 @@ const { chromium } = require("playwright");
 
 // Final content counts, updated as content lands. While the bank is empty this
 // suite runs scaffold checks only; the content checks activate once it lands.
-const TARGETS = { bank: 528, notes: 19, cards: 244, glossary: 174, confusions: 30 };
+const TARGETS = { bank: 528, notes: 19, cards: 244, glossary: 179, confusions: 30 };
 
 const ROOT = __dirname;
 const PORT = 8731;

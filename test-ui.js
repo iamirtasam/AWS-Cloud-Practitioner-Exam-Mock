@@ -7,7 +7,7 @@ const URL = "file:///" + path.join(__dirname, "index.html").replace(/\\/g, "/");
 
 // Final content counts, updated as content lands. While the bank is empty this
 // suite runs scaffold checks only; content checks activate once it lands.
-const TARGETS = { bank: 528, notes: 19, glossary: 174 };
+const TARGETS = { bank: 528, notes: 19, glossary: 179 };
 
 let pass = 0, fail = 0;
 function check(name, cond, detail) {
